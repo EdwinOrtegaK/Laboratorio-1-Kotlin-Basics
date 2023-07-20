@@ -1,5 +1,4 @@
 package com.example.laboratorio1
-import android.os.Bundle
 import android.util.Log
 
 enum class Team {
@@ -72,14 +71,5 @@ class MainActivity{
                 Log.d("TeamDetails", "Equipo desconocido.")
             }
         }
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        // Llamar a la función printTeamDetails con un equipo de ejemplo
-        val equipoEjemplo = Team.Mercedes
-        printTeamDetails(equipoEjemplo)
     }
 }
