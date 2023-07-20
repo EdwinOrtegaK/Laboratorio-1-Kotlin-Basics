@@ -2,7 +2,6 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.laboratorio1.R
-import com.example.laboratorio1.Team
 
 class MainActivity : AppCompatActivity() {
     val driver1 = Driver("Lewis Hamilton", "Mercedes-AMG", "Reino Unido", 44)
