@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("Comparison", "Driver4 != Driver5: $isNotEqual2")
     }
 
+    // Ejemplo de un solo corredor
     val originalDriver = Driver("Lewis Hamilton", "Mercedes-AMG", "Reino Unido", 44)
 
     fun copyAndModifyDriver() {
